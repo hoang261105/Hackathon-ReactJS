@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-all {
+    text-align: center;
+    background: rgb(98, 0, 128);
+    height: 100vh;
+    width: 100vw;
+    padding: 50px;
+}
+
+.container-all .container {
+    background: white;
+    padding: 20px;
+    margin: 50px;
+}
+
+.container-all .container .circle-color {
+    width: 100%;
+    height: 40px;
+}
+
+.container-all .container .circle-color button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px;
+    border: none;
+}
+
+.container-all .container .circle-color button:hover {
+    background: #42b883;
+    transition: 0.2s;
+}
+
+.container-all .container .input {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    align-items: center;
+}
+
+.container-all .container .input input {
+    width: 90%;
+    height: 40px;
+    font-size: 20px;
+    margin: 10px;
+    border: none;
+    outline: none;
+}
+
+.container-all .container .input button {
+    width: 10%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+}
+
+.container-all .container .input button:hover {
+    background: yellow;
+}
+
+.container-all .container .comment-bottom {
+    width: 100%;
+}
+
+.container-all .container .comment-bottom .comment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-all .container .comment-bottom .option {
+    width: 100px;
+}
+
+.container-all .container .comment-bottom .option button {
+    padding: 10px;
+    font-size: 20px;
+    background: white;
+}
+
+.container-all .container .comment-bottom .circle-total {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgb(255, 0, 234);
+    line-height: 40px;
+}
+
+.container-all .container .comment-bottom .content {
+    width: 100%;
+}
+
+.container-all .container .comment-bottom .content p {
+    text-align: left;
+    margin: 20px;
+}
